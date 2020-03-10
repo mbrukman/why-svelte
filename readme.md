@@ -320,8 +320,9 @@ what the UI looks like at individual snapshots in time.
 Both the code we write and performance are impacted —
 it can be difficult or verbose to accomplish some things like animations
 in React, especially without libraries,
-and high-performance React animation libraries often bail out of
-its rendering model to manipulate the DOM directly.
+and high-performance React animation libraries often
+[bail out of its rendering cycle](https://www.framer.com/api/motion/component#performance)
+to manipulate the DOM directly.
 
 Concurrent mode is a further departure from the DOM
 and points toward the endgame of React’s functional purity.
