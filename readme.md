@@ -113,7 +113,7 @@ In the [State of JS 2019 survey](https://2019.stateofjs.com/front-end-frameworks
 75% of respondents have heard of Svelte,
 45% are interested in learning it,
 and 7% have used it.
-(all survey data has biases, but roughly speaking,
+(all public survey data is going to have biases, but roughly speaking,
 these are great numbers for a smalltime framework)
 It’s no exaggeration when author Rich Harris calls the community
 [small but mighty](https://twitter.com/rich_harris/status/1207505891693600769).
