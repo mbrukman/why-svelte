@@ -370,6 +370,13 @@ by extending/reusing/reinterpreting valid syntax.
 [auto-subscriptions](https://svelte.dev/tutorial/auto-subscriptions),
 and [declaring props](https://svelte.dev/tutorial/declaring-props))
 
+As as result, you'll need more specialized tools,
+a little more framework-specific knowledge,
+and you'll be slightly more locked into using Svelte,
+because the language extensions increase the difficulty
+of converting Svelte components to another framework.
+(in some hypothetical disaster scenario)
+
 Rich Harris is proposing to standardize its templating language as
 [HTMLx](https://github.com/htmlx-org/HTMLx),
 which may or may not gain adoption.
