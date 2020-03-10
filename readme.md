@@ -615,7 +615,6 @@ is a nice door into the ecosystem.
 Discuss this post on the web:
 
 - [/r/javascript](https://www.reddit.com/r/javascript/comments/fgcmxo/why_svelte_is_our_choice_for_a_large_web_project/) —
-  [/r/webdev](https://www.reddit.com/r/webdev/comments/fgcn2a/why_svelte_is_our_choice_for_a_large_web_project/) —
   [/r/sveltejs](https://www.reddit.com/r/sveltejs/comments/fgcn4l/why_svelte_is_our_choice_for_a_large_web_project/)
 - [lobste.rs](https://lobste.rs/s/ver9ln/why_svelte_is_our_choice_for_large_web)
 - [Hacker News](https://news.ycombinator.com/item?id=22534639)
