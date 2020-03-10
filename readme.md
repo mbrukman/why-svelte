@@ -190,8 +190,8 @@ Here are some of the official examples, which hopefully speak for themselves:
 ### write less code
 
 Svelte code is terse, and not in a cryptic way —
-it feels like I can express the distilled essence of my UIs,
-and Svelte is smart enough to make it work.
+component definitions feel distilled to their essence,
+with hardly any wasted characters.
 See the official blog post
 [“Write less code”](https://svelte.dev/blog/write-less-code)
 for the full picture.
