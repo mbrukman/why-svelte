@@ -61,7 +61,8 @@ This is a subjective choice, not a solvable equation,
 and any recommendation is going to be context-dependent and biased.
 My goal is to communicate why I believe Svelte is the better choice
 for our project, lay out the pros and cons,
-and persuade you to consider learning more.
+especially as they relate to its compiler paradigm,
+and open doors for you to learn more.
 
 Here’s the current opening pitch at [svelte.dev](https://svelte.dev):
 
