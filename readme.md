@@ -171,10 +171,10 @@ with whatever web knowledge they have.
 ### syntax and semantics
 
 The Svelte language's extensions to HTML, CSS, and JS
-are all designed to improve the development experience.
-Svelte may have gotten early attention for its performance and small bundles,
-but the dev team has put more emphasis on
-Svelte's DX advantages since v3 was released.
+are all designed in service to the development experience.
+Svelte initially received a lot of attention
+for its performance and small bundles,
+but since v3 the dev team has emphasized Svelte's DX advantages.
 Here are some of the official examples, which hopefully speak for themselves:
 
 - [reactive assignments](https://svelte.dev/examples#reactive-assignments)
