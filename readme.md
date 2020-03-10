@@ -288,6 +288,7 @@ but I’m skeptical that their solution is the best one for our problems.
 My instincts lead me to prefer less abstraction,
 lean on automated tools like compilers,
 and avoid runtime costs without clear benefit.
+
 [See this comparison](https://twitter.com/Rich_Harris/status/1200807516529147904)
 Rich Harris made between Svelte and a popular React concurrent mode demo.
 Svelte can write code that performs similarly to hand-written JS
@@ -417,7 +418,10 @@ Svelte’s simple builtin stores, depending on the needs of a project.
 ### rendering blocks the main thread
 
 Svelte may never be able to implement
-the equivalent of React’s concurrent mode.
+the equivalent of React’s
+[concurrent mode](https://reactjs.org/docs/concurrent-mode-intro.html),
+which combines the virtual DOM and interruptible renders
+to achieve rendering that drops no frames.
 This could be a big deal and it’s probably the weakest part of my
 recommendation to my team.
 See [the discussion above](#great-performance) for more about concurrent mode.
