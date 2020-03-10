@@ -228,8 +228,7 @@ this point is deep and there’s a wide frontier to explore.
 ### feels good
 
 Making UIs with Svelte is a pleasure.
-I like its taste and aesthetics so much.
-Svelte’s design feels like a warm cozy blanket on the stormy web.
+Svelte’s taste and aesthetics feels like a warm cozy blanket on the stormy web.
 This impacts everything — features, documentation, syntax, semantics,
 performance, framework internals, npm install size,
 the welcoming and helpful community attitude,
