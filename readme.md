@@ -235,7 +235,7 @@ the welcoming and helpful community attitude,
 and its collegial open development and
 [RFCs](https://github.com/sveltejs/rfcs) —
 it all oozes goodness.
-Its API is tight, powerful, and beautiful —
+Its API is tight, powerful, and good looking —
 I’d point to [actions](https://svelte.dev/docs#use_action) and
 [stores](https://svelte.dev/docs#svelte_store) to support this praise,
 but really, the whole is what feels so good.
