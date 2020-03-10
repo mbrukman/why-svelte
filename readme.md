@@ -11,6 +11,7 @@ especially if you pine for the web of yore and future.
 - [Introduction](#Introduction)
 - [Advantages](#Advantages)
   - [easy to learn](#easy-to-learn)
+  - [syntax and semantics](#syntax-and-semantics)
   - [compilers enable output flexibility](#compilers-enable-output-flexibility)
   - [less is more](#less-is-more)
   - [feels good](#feels-good)
@@ -166,6 +167,24 @@ but these quirks are few in number and reflect carefully chosen tradeoffs.
 Svelte does its best to harmonize with the web platform,
 welcoming both experienced developers and newcomers
 with whatever web knowledge they have.
+
+### syntax and semantics
+
+The Svelte language's extensions to HTML, CSS, and JS
+are all designed to improve the development experience.
+Svelte may have gotten early attention for its performance and small bundles,
+but the dev team has put more emphasis on
+Svelte's DX advantages since v3 was released.
+Here are some of the official examples, which hopefully speak for themselves:
+
+- [reactive assignments](https://svelte.dev/examples#reactive-assignments)
+- [reactive declarations](https://svelte.dev/examples#reactive-declarations)
+- [reactive statements](https://svelte.dev/examples#reactive-statements)
+- [declaring props](https://svelte.dev/examples#declaring-props)
+- [store auto subscriptions](https://svelte.dev/examples#auto-subscriptions)
+- [transitions](https://svelte.dev/examples#transition)
+- [event forwarding](https://svelte.dev/examples#event-forwarding)
+- [optional two-way binding](https://svelte.dev/examples#text-inputs)
 
 ### compilers enable output flexibility
 
