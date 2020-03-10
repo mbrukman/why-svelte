@@ -12,8 +12,8 @@ especially if you pine for the web of yore and future.
 - [Advantages](#Advantages)
   - [easy to learn](#easy-to-learn)
   - [syntax and semantics](#syntax-and-semantics)
+  - [write less code](#write-less-code)
   - [compilers enable output flexibility](#compilers-enable-output-flexibility)
-  - [less is more](#less-is-more)
   - [feels good](#feels-good)
   - [great performance](#great-performance)
   - [aligns with the web platform](#aligns-with-the-web-platform)
@@ -187,6 +187,17 @@ Here are some of the official examples, which hopefully speak for themselves:
 - [event forwarding](https://svelte.dev/examples#event-forwarding)
 - [optional two-way binding](https://svelte.dev/examples#text-inputs)
 
+### write less code
+
+Svelte code is terse, and not in a cryptic way —
+it feels like I can express the distilled essence of my UIs,
+and Svelte is smart enough to make it work.
+See the official blog post
+[“Write less code”](https://svelte.dev/blog/write-less-code)
+for the full picture.
+Rich Harris also gave a related talk,
+[“The Return of ‘Write Less, Do More’”](https://www.youtube.com/watch?v=BzX4aTRPzno).
+
 ### compilers enable output flexibility
 
 As a compiler, Svelte can tailor its output code for context-specific needs.
@@ -207,15 +218,6 @@ to simple string concatenation for big performance gains.
 Compilers have access to flexibility and power
 that runtime frameworks do not —
 this point is deep and there’s a wide frontier to explore.
-
-### less is more
-
-Svelte code is terse and for me
-it’s generally easier to read and write than alternatives.
-See the official blog post
-[“Write less code”](https://svelte.dev/blog/write-less-code)
-and Rich Harris’ talk
-[“The Return of ‘Write Less, Do More’”](https://www.youtube.com/watch?v=BzX4aTRPzno).
 
 ### feels good
 
