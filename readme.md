@@ -170,11 +170,12 @@ with whatever web knowledge they have.
 
 ### syntax and semantics
 
-The Svelte language's extensions to HTML, CSS, and JS
-are all designed in service to the development experience.
+The Svelte language’s extensions to HTML, CSS, and JS
+are designed to improve the development experience,
+and they clearly set the framework apart from its peers.
 Svelte initially received a lot of attention
 for its performance and small bundles,
-but since v3 the dev team has emphasized Svelte's DX advantages.
+but since v3 the dev team has emphasized Svelte’s DX advantages.
 Here are some of the official examples, which hopefully speak for themselves:
 
 - [reactive assignments](https://svelte.dev/examples#reactive-assignments)
@@ -294,7 +295,7 @@ but today Svelte is fast for typical usage and it should continue improving.
 
 Svelte components are a thin layer over the DOM
 and naturally expose the web platform.
-Coding in Svelte feels like I'm moving with the grain of the web.
+Coding in Svelte feels like I’m moving with the grain of the web.
 React abstracts the DOM with
 [functionally pure declarative rendering](https://twitter.com/dan_abramov/status/1236643811998171136)
 and provides escape hatches back to mutable imperative DOM land.
@@ -314,7 +315,7 @@ and high-performance React animation libraries often bail out of
 its rendering model to manipulate the DOM directly.
 
 Concurrent mode is a further departure from the DOM
-and points toward the endgame of React's functional purity.
+and points toward the endgame of React’s functional purity.
 It’ll be interesting to follow how this philosophical difference plays out
 as each side of the spectrum moves closer to the theoretical endpoints.
 Future web standards may or may not follow React’s lead.
