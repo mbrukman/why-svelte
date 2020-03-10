@@ -123,9 +123,9 @@ Compared to modern mainstream frameworks like React and Vue and their
 communities, Svelte is smaller and less mature,
 but its community is active and established.
 Svelte is now commonly mentioned in the same breath
-as React, Vue, Angular, Preact, and Ember, and for good reason.
+as React, Vue, Angular, Preact, and Ember.
 
-Like all technologies, Svelte comes with tradeoffs.
+Like all technologies Svelte has its tradeoffs.
 We’ll explore both the pros and cons ahead.
 The costs and benefits to your projects are situational.
 Some downsides are unavoidable, but many are temporary
@@ -137,7 +137,7 @@ First let’s talk about the good stuff.
 Our goal is to create amazing user interfaces that exceed expectations,
 and Svelte is a tool that delivers.
 By default, Svelte websites are fast and lightweight.
-As a tool, it’s powerful, flexible, friendly, and beautifully designed.
+As a tool, it’s powerful, flexible, and beautifully designed.
 Making things with Svelte feels fun and streamlined.
 Let’s walk through the details.
 
@@ -152,6 +152,7 @@ is excellent and approachable.
 The official blog post
 [“Svelte for new developers”](https://svelte.dev/blog/svelte-for-new-developers)
 helps those new to Node and the command line.
+
 Its `.svelte` files pack together all three of the web’s languages
 with holistically-designed extensions.
 Like Vue, Svelte templates are a superset of HTML.
