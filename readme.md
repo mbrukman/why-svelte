@@ -614,7 +614,7 @@ Here are some of his inspiring talks about Svelte:
 - [“Rethinking reactivity”](https://www.youtube.com/watch?v=AdNJ3fydeao)
 - [“Computer, build me an app”](https://www.youtube.com/watch?v=qqt6YxAZoOc)
 
-Alright! Was that a fairly thorough and persuasive overview?
+Alright! Was that a fairly thorough and clarifying overview?
 I hope you’ll consider Svelte
 next time you want to play around with some new technologies
 and see it as a worthwhile option for making awesome software for people.
