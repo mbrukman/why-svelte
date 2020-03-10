@@ -591,14 +591,14 @@ is a nice door into the ecosystem.
 
 Discuss this post on the web:
 
-- [/r/javascript] —
-  [/r/webdev] —
-  [/r/sveltejs]
-- [lobste.rs]
-- [Hacker News]
-- [Tildes]
+- [/r/javascript](https://www.reddit.com/r/javascript/comments/fgcmxo/why_svelte_is_our_choice_for_a_large_web_project/) —
+  [/r/webdev](https://www.reddit.com/r/webdev/comments/fgcn2a/why_svelte_is_our_choice_for_a_large_web_project/) —
+  [/r/sveltejs](https://www.reddit.com/r/sveltejs/comments/fgcn4l/why_svelte_is_our_choice_for_a_large_web_project/)
+- [lobste.rs](https://lobste.rs/s/ver9ln/why_svelte_is_our_choice_for_large_web)
+- [Hacker News](https://news.ycombinator.com/item?id=22534639)
+- [Tildes](https://tildes.net/~comp/mjh/why_svelte_is_our_choice_for_a_large_web_project_in_2020)
 - tweet me [@ryanatkn](https://twitter.com/ryanatkn)
-  and see [the tweet for this post]
+  and see [the tweet for this post](https://twitter.com/ryanatkn/status/1237347309488349184)
 - please feel free to [open an issue](https://github.com/feltcoop/why-svelte/issues)
   here on GitHub with questions/comments/improvements/etc
 
