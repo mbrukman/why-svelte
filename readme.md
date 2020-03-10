@@ -108,8 +108,9 @@ attracting significant attention in the web community.
 [3](https://twitter.com/HenrikJoreteg/status/1120926295565553665),
 [4](https://twitter.com/sarah_edo/status/1120846189274918912))
 I was loosely following Svelte because it kept smoking benchmarks,
-and version 3 convinced me of its potential — I began using it for
-risk-tolerant projects.
+and version 3's ergonomics and reactivity convinced me of its potential —
+I began using it for risk-tolerant projects.
+
 In the [State of JS 2019 survey](https://2019.stateofjs.com/front-end-frameworks/svelte/),
 75% of respondents have heard of Svelte,
 45% are interested in learning it,
@@ -211,14 +212,16 @@ This makes it a good candidate for incremental adoption,
 like [using Svelte components with React and Vue](https://github.com/pngwn/svelte-adapter).
 Svelte outputs small bundles that
 include only the framework code used by your components.
+
 An [experiment with WebGL](https://github.com/sveltejs/gl)
 and the NativeScript integration
 [svelte-native](https://github.com/halfnelson/svelte-native)
 demonstrate compile targets beyond the DOM.
 Its server-side rendering mode compiles components
 to simple string concatenation for big performance gains.
-Compilers have access to flexibility and power
-that runtime frameworks do not —
+
+Simply put, compilers have access to flexibility and power
+that runtime-only frameworks lack —
 this point is deep and there’s a wide frontier to explore.
 
 ### feels good
@@ -278,6 +281,7 @@ Concurrent mode applies
 that [developers are learning to work with](https://twitter.com/AdamRackis/status/1236460463199850496),
 which the React team confidently trades for the benefits.
 The tradeoffs are complex, context-dependent, and nuanced.
+
 React may provide amazing UX in some circumstances
 once concurrent mode is ready,
 but I’m skeptical that their solution is the best one for our problems.
@@ -289,6 +293,7 @@ Rich Harris made between Svelte and a popular React concurrent mode demo.
 Svelte can write code that performs similarly to hand-written JS
 and sometimes do everything in a single animation frame,
 where React sometimes spreads equivalent work over multiple frames.
+
 Sometimes is the key word here.
 There is no objectively right answer for every situation.
 With Svelte we may end up jealous of React’s sweet non-blocking rendering
@@ -340,10 +345,12 @@ Behind Svelte’s simple APIs sits a beefy compiler.
 Frontend web development has become very tool heavy in the webapp era,
 so in practice this adds little cost beyond what developers like myself
 already pay, but increased build complexity is important to acknowledge.
+
 For example Vue’s [Evan You](https://twitter.com/youyuxi) has stated
 that Vue should always be droppable into any webpage for immediate development.
 Many people like and rely on this ability.
 It keeps things simple.
+
 Svelte can do this but only by including its compiler in the browser,
 which currently weighs 870k. This is super useful in some circumstances,
 like [Svelte’s REPL](https://svelte.dev/repl/hello-world),
@@ -362,12 +369,15 @@ by extending/reusing/reinterpreting valid syntax.
 (e.g. [reactivity](https://svelte.dev/tutorial/reactive-assignments),
 [auto-subscriptions](https://svelte.dev/tutorial/auto-subscriptions),
 and [declaring props](https://svelte.dev/tutorial/declaring-props))
+
 Rich Harris is proposing to standardize its templating language as
 [HTMLx](https://github.com/htmlx-org/HTMLx),
 which may or may not gain adoption.
+
 Svelte CSS is scoped to components, which is a nice default,
 and it provides the [`:global` escape hatch](https://svelte.dev/docs#style)
 to opt out.
+
 [Svelte isn’t alone in its approach](https://twitter.com/Rich_Harris/status/1120737306774843392)
 of extending languages, but it goes further than Angular and Vue,
 which extend HTML but not JS,
@@ -378,6 +388,7 @@ the latter of which change some semantic expectations of JS function calls,
 and it’s arguable whether React or Svelte
 is the more radical departure from the norm.
 (sounds like a boring argument tbh)
+
 After using Svelte for a year, I can comfortably claim
 it extends the web’s languages with taste and restraint,
 and for our team it’s worth the costs and risk.
@@ -388,6 +399,7 @@ Svelte’s reactive language extensions are limited to components.
 In Vue and libraries like the React-friendly MobX,
 you use the same syntax for reactive primitives in every module,
 because they are plain JavaScript.
+
 Although this is a restriction in Svelte, it comes with benefits as well —
 its reactive syntax is part of why people like it so much,
 and its simple store contract interoperates with things like RxJS,
@@ -401,6 +413,7 @@ the equivalent of React’s concurrent mode.
 This could be a big deal and it’s probably the weakest part of my
 recommendation to my team.
 See [the discussion above](#great-performance) for more about concurrent mode.
+
 Rich Harris
 [intends to implement an equivalent to React’s suspense](https://twitter.com/Rich_Harris/status/1148263929497477120),
 so it appears React’s advantage there is temporary.
@@ -428,8 +441,10 @@ and mature devtool browser extensions.
 Svelte is its own language, not plain JS, so it needs specialized tooling.
 Svelte has decent editor support today
 but the plugins I’ve used have rough edges and missing features.
+
 Svelte’s TypeScript support is
 [a work in progress being helped by a TypeScript team member](https://github.com/sveltejs/svelte/issues/4518).
+
 The [community](https://github.com/sveltejs/community)
 has been actively improving tools for the year I’ve been using Svelte
 (shoutout to [@UnwrittenFun](https://github.com/UnwrittenFun))
@@ -443,6 +458,7 @@ and consensus libraries are sparse and under-developed.
 People who adopt it today will have to think through problems
 where other communities have common knowledge solutions,
 making the learning curve temporarily steeper.
+
 Svelte’s beginner documentation is great
 but people are still figuring out what mastery looks like.
 Thoughtful feedback from experienced Svelte users is readily offered
@@ -452,6 +468,7 @@ on [Twitter](https://twitter.com/sveltejs),
 and [Stack Overflow](https://stackoverflow.com/questions/tagged/svelte),
 but not to the degree of React and Vue,
 which have vast communities and educational resources.
+
 Our development will be slowed as our team develops ideas
 about the best ways to build a big Svelte app.
 I have a lot of experience working on JS frontends
@@ -476,6 +493,7 @@ We’re developing our own design language and we care a lot about
 customizability, consistency, and performance,
 and off-the-shelf components add significant friction here,
 especially in a less mature ecosystem.
+
 For short-term results,
 Svelte today may not have the libraries to meet one’s needs.
 We’re investing for the long-term.
@@ -501,6 +519,7 @@ and notes that in the future,
 Svelte could optionally send a template bytecode
 instead of compiled JS to clients,
 substantially lowering bundle sizes after paying the cost of the interpreter.
+
 However today there is no such Svelte template interpreter.
 A large majority of websites will not have this problem,
 but our project is going to have a heavy UI metasystem similar to an IDE,
@@ -518,6 +537,7 @@ not because it’s difficult to learn
 but because many people develop an understanding of a single framework,
 structure their thinking around its patterns, and remain in its garden,
 often for employment reasons.
+
 Some people who would jump into a React or Vue project
 won’t look twice at a Svelte codebase — this can be mitigated but not ignored.
 On the bright side, Svelte may attract some people
@@ -540,6 +560,7 @@ Bugs get fixed, features get added,
 and many professionals rely on it in production,
 but unlike other major frameworks,
 nobody is being paid to work on it full-time.
+
 Rich likes his dayjob, but it seems likely that funding
 will be available to the dev team in the future, if they want it.
 
