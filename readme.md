@@ -109,11 +109,12 @@ attracting significant attention in the web community.
 I was loosely following Svelte because it kept smoking benchmarks,
 and version 3 convinced me of its potential — I began using it for
 risk-tolerant projects.
-In the [State of JS 2019 survey](https://2019.stateofjs.com/front-end-frameworks/svelte/)
-(caveat: it has many flaws),
+In the [State of JS 2019 survey](https://2019.stateofjs.com/front-end-frameworks/svelte/),
 75% of respondents have heard of Svelte,
 45% are interested in learning it,
 and 7% have used it.
+(all survey data has biases, but roughly speaking,
+these are great numbers for a smalltime framework)
 It’s no exaggeration when author Rich Harris calls the community
 [small but mighty](https://twitter.com/rich_harris/status/1207505891693600769).
 Compared to modern mainstream frameworks like React and Vue and their
@@ -557,7 +558,7 @@ and that’s our bet for Svelte.
 Evidence of growth, buyin, mindshare, etc:
 
 - there’s a lot of logos and faces at [svelte.dev](https://svelte.dev/)
-- Svelte is one of the 6 JS frameworks in the (flawed)
+- Svelte is one of the 6 JS frameworks in the
   [State of JS 2019 survey](https://2019.stateofjs.com/front-end-frameworks/svelte/) —
   75% have heard of it, 7% have used it,
   and 45% are interested in learning more
