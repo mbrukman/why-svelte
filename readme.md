@@ -172,7 +172,7 @@ with whatever web knowledge they have.
 
 The Svelte language’s extensions to HTML, CSS, and JS
 are designed to improve the development experience,
-and they clearly set the framework apart from its peers.
+and they set the framework clearly apart from its peers.
 Svelte initially received a lot of attention
 for its performance and small bundles,
 but since v3 the dev team has emphasized Svelte’s DX advantages.
