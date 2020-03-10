@@ -108,7 +108,7 @@ attracting significant attention in the web community.
 [3](https://twitter.com/HenrikJoreteg/status/1120926295565553665),
 [4](https://twitter.com/sarah_edo/status/1120846189274918912))
 I was loosely following Svelte because it kept smoking benchmarks,
-and version 3's ergonomics and reactivity convinced me of its potential —
+and version 3’s ergonomics and reactivity convinced me of its potential —
 I began using it for risk-tolerant projects.
 
 In the [State of JS 2019 survey](https://2019.stateofjs.com/front-end-frameworks/svelte/),
@@ -362,7 +362,7 @@ than React’s JSX and Vue’s `.vue` files.
 
 [Svelte is its own language](https://gist.github.com/Rich-Harris/0f910048478c2a6505d1c32185b61934)
 not plain HTML+CSS+JS, increasing the risks of adoption,
-but happily it adheres closely to the web platform
+but it adheres closely to the web platform
 outside of its own targeted enhancements.
 Svelte changes some of JavaScript’s semantics to support useful features
 by extending/reusing/reinterpreting valid syntax.
