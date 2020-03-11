@@ -138,6 +138,8 @@ Our goal is to create amazing user interfaces that exceed expectations,
 and Svelte is a tool that delivers.
 By default, Svelte websites are fast and lightweight.
 As a tool, it’s powerful, flexible, and beautifully designed.
+Its compiler architecture unlocks broad powers
+ripe for further exploration.
 Making things with Svelte feels fun and streamlined.
 Let’s walk through the details.
 
