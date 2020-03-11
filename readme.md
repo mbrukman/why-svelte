@@ -379,10 +379,9 @@ and [declaring props](https://svelte.dev/tutorial/declaring-props))
 
 As as result, you’ll need more specialized tools
 and a little more framework-specific knowledge.
-Additionally, if you account for a hypothetical disaster scenario,
-you’ll be slightly more locked into using Svelte once you start,
-because its language extensions increase the difficulty
-of converting Svelte components to another framework.
+Additionally, Svelte's language extensions increase the cost
+of converting existing Svelte components to another framework
+for those rare unfortunate times.
 
 Rich Harris is proposing to standardize its templating language as
 [HTMLx](https://github.com/htmlx-org/HTMLx),
