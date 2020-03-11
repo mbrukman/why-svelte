@@ -241,7 +241,7 @@ I’d point to [actions](https://svelte.dev/docs#use_action) and
 but really, the whole is what feels so good.
 
 The aesthetics of underlying technologies have a way of leaking
-into the end user experience, and Svelte is a lovely companion.
+into the end user experience.
 Our team is building open source community tools and Svelte
 fits our identity as an independent labor of love with an organic community.
 With some frameworks, you may find your needs at odds with
