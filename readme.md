@@ -396,7 +396,7 @@ to opt out.
 to target the web platform.
 Some languages are a natural fit with certain frameworks —
 for example ClojureScript and ReasonML have great React integrations.
-Svelte's extensions to JS and HTML make other languages
+Svelte’s extensions to JS and HTML make other languages
 require specialized tooling and some are a rough fit or incompatible.
 Choosing Svelte today means choosing JS, web standards, and
 [optionally TypeScript](https://github.com/sveltejs/svelte/issues/4518),
@@ -681,7 +681,8 @@ Discuss this post on the web:
 - [Tildes](https://tildes.net/~comp/mjh/why_svelte_is_our_choice_for_a_large_web_project_in_2020)
 - tweet me [@ryanatkn](https://twitter.com/ryanatkn)
   and see [the tweet for this post](https://twitter.com/ryanatkn/status/1237347309488349184)
-- please feel free to [open an issue](https://github.com/feltcoop/why-svelte/issues)
+- please feel free to
+  [open an issue](https://github.com/feltcoop/why-svelte/issues)
   here on GitHub with questions/comments/improvements/etc
 
 It’s worth mentioning that Svelte limits its scope
@@ -715,7 +716,8 @@ Written by Ryan Atkinson ([@ryanatkn](https://github.com/ryanatkn))
 with special thanks to
 Hamilton Reed ([@greatbacon](https://github.com/greatbacon)),
 Robert Hall ([@arxpoetica](https://github.com/arxpoetica)),
-and [@pngwn](https://github.com/pngwn) ([![!!!](pngwn.jpg)](https://github.com/pngwn)),
+and [@pngwn](https://github.com/pngwn)
+([![!!!](pngwn.jpg)](https://github.com/pngwn)),
 and extra special thanks to the Svelte team and community
 for the wonderful experience. 💚
 
