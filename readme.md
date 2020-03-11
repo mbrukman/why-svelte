@@ -395,10 +395,13 @@ to opt out.
 to target the web platform.
 Some languages are a natural fit with certain frameworks —
 for example ClojureScript and ReasonML have great React integrations.
-Svelte’s extensions to JS and HTML wall it off from other languages.
-Choosing Svelte today means choosing JS, web standards, and
-[optionally TypeScript](https://github.com/sveltejs/svelte/issues/4518),
-which Svelte itself is written in.
+The Svelte compiler
+[requires script tags to be JavaScript](https://twitter.com/Rich_Harris/status/1237864318164553729),
+so any language you want to use through
+[preprocessors](https://svelte.dev/docs#svelte_preprocess)
+must satisfy that constraint.
+Svelte is written in TypeScript and work
+[integrating it for users is in progress](https://github.com/sveltejs/svelte/issues/4518).
 
 [Svelte isn’t alone in its approach](https://twitter.com/Rich_Harris/status/1120737306774843392)
 of extending languages, but it goes further than Angular and Vue,
