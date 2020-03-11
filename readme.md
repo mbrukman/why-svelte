@@ -395,8 +395,7 @@ to opt out.
 to target the web platform.
 Some languages are a natural fit with certain frameworks —
 for example ClojureScript and ReasonML have great React integrations.
-Svelte’s extensions to JS and HTML make other languages
-require specialized tooling and some are a rough fit or incompatible.
+Svelte’s extensions to JS and HTML wall it off from other languages.
 Choosing Svelte today means choosing JS, web standards, and
 [optionally TypeScript](https://github.com/sveltejs/svelte/issues/4518),
 which Svelte itself is written in.
