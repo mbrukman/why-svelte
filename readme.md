@@ -406,10 +406,10 @@ is the more radical departure from the norm.
 After using Svelte for a year, I can comfortably claim
 it extends the web’s languages with taste and restraint,
 and for our team it’s worth the costs and risk.
-By extending the web's languages instead of replacing them
+By extending the web’s languages instead of replacing them
 like [Elm](https://elm-lang.org/) and [Dart](https://dart.dev/) do,
 Svelte will work with future versions of the standards - ES2042 here we come.
-(design conflicts are possible — that's where restraint is important)
+(design conflicts are possible — that’s where restraint is important)
 
 ### reactive syntax is for components only
 
