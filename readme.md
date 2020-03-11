@@ -392,6 +392,16 @@ Svelte CSS is scoped to components, which is a nice default,
 and it provides the [`:global` escape hatch](https://svelte.dev/docs#style)
 to opt out.
 
+[Many, many languages compile to JavaScript](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS)
+to target the web platform.
+Some languages are a natural fit with certain frameworks —
+for example ClojureScript and ReasonML have great React integrations.
+Svelte's extensions to JS and HTML make other languages
+require specialized tooling and some are a rough fit or incompatible.
+Choosing Svelte today means choosing JS, web standards, and
+[optionally TypeScript](https://github.com/sveltejs/svelte/issues/4518),
+which Svelte itself is written in.
+
 [Svelte isn’t alone in its approach](https://twitter.com/Rich_Harris/status/1120737306774843392)
 of extending languages, but it goes further than Angular and Vue,
 which extend HTML but not JS,
