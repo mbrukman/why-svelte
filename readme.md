@@ -421,7 +421,7 @@ Our large project is going to need highly structured
 and predictable state management, and Svelte’s flexibility
 scales from trivial projects up to our big one.
 We’re looking at
-[https://github.com/davidkpiano/xstate](https://github.com/davidkpiano/xstate)
+statecharts and [XState](https://github.com/davidkpiano/xstate)
 to wrangle this problem.
 
 ### rendering blocks the main thread
