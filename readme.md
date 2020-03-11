@@ -379,7 +379,7 @@ and [declaring props](https://svelte.dev/tutorial/declaring-props))
 
 As as result, you’ll need more specialized tools
 and a little more framework-specific knowledge.
-Additionally, Svelte's language extensions increase the cost
+Additionally, Svelte’s language extensions increase the cost
 of converting existing Svelte components to another framework
 for those rare unfortunate times.
 
