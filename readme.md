@@ -14,8 +14,8 @@ especially if you pine for the web of yore and future.
   - [syntax and semantics](#syntax-and-semantics)
   - [write less code](#write-less-code)
   - [compilers enable output flexibility](#compilers-enable-output-flexibility)
-  - [feels good](#feels-good)
   - [great performance](#great-performance)
+  - [feels good](#feels-good)
   - [aligns with the web platform](#aligns-with-the-web-platform)
 - [Disadvantages](#Disadvantages)
   - [compilers move complexity](#compilers-move-complexity)
@@ -227,33 +227,6 @@ Simply put, compilers have access to flexibility and power
 that runtime-only frameworks lack —
 this point is deep and there’s a wide frontier to explore.
 
-### feels good
-
-Making UIs with Svelte is a pleasure.
-Svelte’s aesthetics feel like a warm cozy blanket on the stormy web.
-This impacts everything — features, documentation, syntax, semantics,
-performance, framework internals, npm install size,
-the welcoming and helpful community attitude,
-and its collegial open development and
-[RFCs](https://github.com/sveltejs/rfcs) —
-it all oozes good taste.
-Its API is tight, powerful, and good looking —
-I’d point to [actions](https://svelte.dev/docs#use_action) and
-[stores](https://svelte.dev/docs#svelte_store) to support this praise,
-but really, the whole is what feels so good.
-
-The aesthetics of underlying technologies have a way of leaking
-into the end user experience.
-Our team is building open source community tools and Svelte
-fits our identity as an independent labor of love with an organic community.
-With some frameworks, you may find your needs at odds with
-the enterprise-level goals of a megacorp owner,
-and you may both benefit and sometimes suffer from their web-scale engineering.
-Svelte’s future does not depend on the continued delivery of business value
-to one company and its direction is shaped in public by volunteers.
-Regardless of measurable impact,
-Svelte resonates with our emotions and it makes for a good story.
-
 ### great performance
 
 Svelte has excellent performance characteristics.
@@ -301,6 +274,33 @@ There is no objectively right answer for every situation.
 With Svelte we may end up jealous of React’s sweet non-blocking rendering
 one day [as this tweet portends](https://twitter.com/acdlite/status/1228720823814344705),
 but today Svelte is fast for typical usage and it should continue improving.
+
+### feels good
+
+Making UIs with Svelte is a pleasure.
+Svelte’s aesthetics feel like a warm cozy blanket on the stormy web.
+This impacts everything — features, documentation, syntax, semantics,
+performance, framework internals, npm install size,
+the welcoming and helpful community attitude,
+and its collegial open development and
+[RFCs](https://github.com/sveltejs/rfcs) —
+it all oozes good taste.
+Its API is tight, powerful, and good looking —
+I’d point to [actions](https://svelte.dev/docs#use_action) and
+[stores](https://svelte.dev/docs#svelte_store) to support this praise,
+but really, the whole is what feels so good.
+
+The aesthetics of underlying technologies have a way of leaking
+into the end user experience.
+Our team is building open source community tools and Svelte
+fits our identity as an independent labor of love with an organic community.
+With some frameworks, you may find your needs at odds with
+the enterprise-level goals of a megacorp owner,
+and you may both benefit and sometimes suffer from their web-scale engineering.
+Svelte’s future does not depend on the continued delivery of business value
+to one company and its direction is shaped in public by volunteers.
+Regardless of measurable impact,
+Svelte resonates with our emotions and it makes for a good story.
 
 ### aligns with the web platform
 
@@ -369,7 +369,7 @@ than React’s JSX and Vue’s `.vue` files.
 
 [Svelte is its own language](https://gist.github.com/Rich-Harris/0f910048478c2a6505d1c32185b61934)
 not plain HTML+CSS+JS — increasing the risks of adoption —
-but it adheres closely to the web platform
+but it adheres closely to web standards
 outside of its own targeted enhancements.
 Svelte changes some of JavaScript’s semantics to support useful features
 by extending/reusing/reinterpreting valid syntax.
