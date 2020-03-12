@@ -273,7 +273,9 @@ Sometimes is the key word here.
 There is no objectively right answer for every situation.
 With Svelte we may end up jealous of React’s sweet non-blocking rendering
 one day [as this tweet portends](https://twitter.com/acdlite/status/1228720823814344705),
-but today Svelte is fast for typical usage and it should continue improving.
+but today Svelte is fast for typical usage, it should continue improving,
+and it’s possible that Svelte will discover its own solutions
+to the problem of blocking rendering.
 
 ### feels good
 
@@ -447,16 +449,20 @@ to wrangle this problem.
 
 ### rendering blocks the main thread
 
-Svelte may never be able to implement
-the equivalent of React’s
+Svelte may never be able to implement a full equivalent of React’s
 [concurrent mode](https://reactjs.org/docs/concurrent-mode-intro.html),
 which combines the virtual DOM and interruptible renders
 to achieve rendering that drops no frames.
-This could be a big deal and it’s the weakest part
+This could be significant and it’s the weakest part
 of my recommendation to my team.
-See [the discussion above](#great-performance) for more about concurrent mode.
+That said, Svelte may surprise us or find other angles to approach this problem.
+For more about how concurrent mode relates to Svelte,
+see [these tweets from Rich Harris](https://twitter.com/Rich_Harris/status/1200805237948325888),
+this section of
+[his talk "Rethinking reactivity"](https://www.youtube.com/watch?v=AdNJ3fydeao&feature=youtu.be&t=1130),
+and [the discussion above](#great-performance).
 Svelte has a history of surprising innovations
-but we shouldn’t count on this one.
+but we shouldn’t choose Svelte today expecting an ideal answer.
 
 Rich Harris
 [intends to implement an equivalent to React’s suspense](https://twitter.com/Rich_Harris/status/1148263929497477120),
