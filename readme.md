@@ -250,7 +250,7 @@ React is betting long-term on
 [concurrent mode](https://reactjs.org/docs/concurrent-mode-intro.html)
 and functional purity to improve performance,
 leveraging its virtual DOM architecture to unlock benefits
-unavailable to other frameworks, like rendering that never drops a frame. (!)
+unavailable to other frameworks, like rendering that never drops a frame. (!!)
 Concurrent mode applies
 [additional restrictions](https://reactjs.org/docs/concurrent-mode-adoption.html)
 that [developers are learning to work with](https://twitter.com/AdamRackis/status/1236460463199850496),
