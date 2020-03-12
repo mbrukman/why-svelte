@@ -79,9 +79,11 @@ If you’re new to Svelte, now would be a good time to read
 [its introductory blog post](https://svelte.dev/blog/svelte-3-rethinking-reactivity).
 From here I’ll assume some familiarity.
 
+Svelte is a compiler that turns declarative components
+into imperative code that performs similarly to hand-written vanilla JS.
 After using Svelte for a year and participating in the community,
 I can say I love its design and I’m having a lot of fun.
-Svelte provides an enjoyable DX that doesn’t compromise on UX.
+It’s an enjoyable DX that doesn’t compromise on UX.
 I think it’ll soon become common knowledge among UI developers that compilers
 have an advantage over runtime-only frameworks for hitting this sweet spot.
 Both Angular ([Ivy](https://angular.io/guide/ivy))
