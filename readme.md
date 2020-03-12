@@ -298,7 +298,7 @@ With some frameworks, you may find your needs at odds with
 the enterprise-level goals of a megacorp owner,
 and you may both benefit and sometimes suffer from their web-scale engineering.
 Svelte’s future does not depend on the continued delivery of business value
-to one company and its direction is shaped in public by volunteers.
+to one company, and its direction is shaped in public by volunteers.
 Regardless of measurable impact,
 Svelte resonates with our emotions and it makes for a good story.
 
@@ -367,7 +367,7 @@ than React’s JSX and Vue’s `.vue` files.
 
 ### using Svelte means adopting a new language
 
-[Svelte is its own language](https://gist.github.com/Rich-Harris/0f910048478c2a6505d1c32185b61934)
+[Svelte is its own language](https://gist.github.com/Rich-Harris/0f910048478c2a6505d1c32185b61934),
 not plain HTML+CSS+JS — increasing the risks of adoption —
 but it adheres closely to web standards
 outside of its own targeted enhancements.
@@ -533,7 +533,7 @@ For our project this is not impactful —
 we’ll be writing most components from scratch for UX and DX reasons.
 We’re developing our own design language and we care a lot about
 customizability, consistency, and performance,
-and off-the-shelf components add significant friction here,
+and off-the-shelf components add friction,
 especially in a less mature ecosystem.
 
 For short-term results,
