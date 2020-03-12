@@ -433,8 +433,9 @@ you use the same syntax for reactive primitives in every module,
 because they are plain JavaScript.
 
 Although this is a restriction in Svelte, it comes with benefits as well —
-its reactive syntax is part of why people like it so much,
-and its simple store contract interoperates with libraries like RxJS,
+its reactive syntax is part of why people like it so much, and its
+[simple store contract](https://svelte.dev/docs#svelte_store)
+interoperates with libraries like RxJS,
 so you can choose among many state management options or stick with
 Svelte’s simple builtin stores, depending on the needs of a project.
 Our large project is going to need highly structured
