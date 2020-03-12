@@ -399,7 +399,10 @@ The Svelte compiler
 [requires script tags to be JavaScript](https://twitter.com/Rich_Harris/status/1237864318164553729),
 so any language you want to use through
 [preprocessors](https://svelte.dev/docs#svelte_preprocess)
-must satisfy that constraint.
+must satisfy that constraint,
+and integrating an unofficial language
+with Svelte’s markup (for e.g. typechecking)
+requires more specialized tooling.
 Svelte is written in TypeScript and work
 [integrating it for users is in progress](https://github.com/sveltejs/svelte/issues/4518).
 
