@@ -701,7 +701,7 @@ Discuss this post on the web:
 It’s worth mentioning that Svelte limits its scope
 to being only a UI component framework.
 Like React, it provides the view layer,
-but it goes a little further by providing extensible
+but it goes a little further with extensible
 [stores for state management](https://svelte.dev/docs#svelte_store).
 Others like Angular and Vue provide a more all-in-one solution
 with official routers, opinionated state management, CLIs, and more.
