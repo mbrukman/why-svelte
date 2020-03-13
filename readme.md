@@ -704,7 +704,7 @@ Like React, it provides the view layer,
 but it goes a little further by providing extensible
 [stores for state management](https://svelte.dev/docs#svelte_store).
 Others like Angular and Vue provide a more all-in-one solution
-with official routers, opinionated state management, and more.
+with official routers, opinionated state management, CLIs, and more.
 [Sapper](https://sapper.svelte.dev/) is Svelte’s official app framework
 that adds routing, server-side rendering,
 and some other essential app features,
