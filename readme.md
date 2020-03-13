@@ -80,7 +80,7 @@ If you’re new to Svelte, now would be a good time to read
 From here I’ll assume some familiarity.
 
 Svelte is a compiler that turns declarative components
-into imperative code that performs similarly to hand-written vanilla JS.
+into imperative JavaScript that runs about as fast as hand-written code.
 After using Svelte for a year and participating in the community,
 I can say I love its design and I’m having a lot of fun.
 It’s an enjoyable DX that doesn’t compromise on UX.
