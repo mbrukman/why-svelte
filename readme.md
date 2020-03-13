@@ -706,7 +706,7 @@ but it goes a little further with extensible
 Others like Angular and Vue provide a more all-in-one solution
 with official routers, opinionated state management, CLIs, and more.
 [Sapper](https://sapper.svelte.dev/) is Svelte’s official app framework
-that adds routing, server-side rendering,
+that adds routing, server-side rendering, code splitting,
 and some other essential app features,
 but it has no opinions about state management and beyond.
 Some devs prefer Svelte’s minimal approach that defers problems to userland,
