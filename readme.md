@@ -631,6 +631,8 @@ and that’s our bet for Svelte.
 Evidence of growth, buyin, mindshare, etc:
 
 - there’s a lot of logos and faces at [svelte.dev](https://svelte.dev/)
+- the [InfoQ Trends Report 2020](https://www.infoq.com/articles/javascript-web-development-trends-2020/)
+  puts Svelte in the "early majority" section of the adoption curve
 - Svelte is one of the 6 JS frameworks in the
   [State of JS 2019 survey](https://2019.stateofjs.com/front-end-frameworks/svelte/) —
   75% have heard of it, 7% have used it,
