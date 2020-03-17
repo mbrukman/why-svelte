@@ -218,12 +218,13 @@ like [using Svelte components with React and Vue](https://github.com/pngwn/svelt
 Svelte outputs small bundles that
 include only the framework code used by your components.
 
+Svelte’s server-side rendering mode compiles components
+to simple string concatenation for big performance gains.
 An [experiment with WebGL](https://github.com/sveltejs/gl)
 and the NativeScript integration
 [svelte-native](https://github.com/halfnelson/svelte-native)
-demonstrate compile targets beyond the DOM.
-Its server-side rendering mode compiles components
-to simple string concatenation for big performance gains.
+demonstrate compile targets beyond the DOM
+that bypass the costs of a declarative abstraction like the virtual DOM.
 
 Simply put, compilers have access to flexibility and power
 that runtime-only frameworks lack —
