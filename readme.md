@@ -224,7 +224,7 @@ An [experiment with WebGL](https://github.com/sveltejs/gl)
 and the NativeScript integration
 [svelte-native](https://github.com/halfnelson/svelte-native)
 demonstrate compile targets beyond the DOM
-that bypass the costs of runtime declarative abstractions like the virtual DOM.
+that bypass the costs of runtime declarative abstractions like virtual DOM.
 
 Simply put, compilers have access to flexibility and power
 that runtime-only frameworks lack —
