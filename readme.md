@@ -203,7 +203,7 @@ with hardly any wasted characters.
 See the official blog post
 [“Write less code”](https://svelte.dev/blog/write-less-code)
 for the full picture.
-Rich Harris also gave a related talk,
+Rich also gave a related talk,
 [“The Return of ‘Write Less, Do More’”](https://www.youtube.com/watch?v=BzX4aTRPzno).
 
 ### compilers enable output flexibility
@@ -269,7 +269,7 @@ My instincts lead me to prefer less abstraction,
 lean on automated tools like compilers,
 and avoid runtime costs without clear benefit.
 [See this comparison](https://twitter.com/Rich_Harris/status/1200807516529147904)
-Rich Harris made between Svelte and a popular React concurrent mode demo.
+Rich made between Svelte and a popular React concurrent mode demo.
 Svelte can write code that performs similarly to hand-written JS
 and sometimes do everything in a single animation frame,
 where React sometimes spreads equivalent work over multiple frames.
@@ -317,7 +317,7 @@ Coding in Svelte feels like I’m moving with the grain of the web.
 React abstracts the DOM with
 [functionally pure declarative rendering](https://twitter.com/dan_abramov/status/1236643811998171136)
 and provides escape hatches back to mutable imperative DOM land.
-This is a profound philosophical difference that Rich Harris gave a talk about.
+This is a profound philosophical difference that Rich gave a talk about.
 (unfortunately not recorded —
 [slides here](https://docs.google.com/presentation/d/1PUvpXMBEDS45rd0wHu6tF3j_8wmGC6cOLtOw2hzU-mw/edit))
 
@@ -390,7 +390,7 @@ For those rare unfortunate times you find yourself migrating
 Svelte components to another framework,
 its language extensions add friction.
 
-Rich Harris is proposing to standardize its templating language as
+Rich is proposing to standardize its templating language as
 [HTMLx](https://github.com/htmlx-org/HTMLx),
 which may or may not gain adoption.
 
@@ -462,15 +462,14 @@ This could be significant and it’s the weakest part
 of my recommendation to my team.
 That said, Svelte may surprise us or find other angles to approach this problem.
 For more about how concurrent mode relates to Svelte,
-see [these tweets from Rich Harris](https://twitter.com/Rich_Harris/status/1200805237948325888),
+see [these tweets from Rich](https://twitter.com/Rich_Harris/status/1200805237948325888),
 this section of
 [his talk "Rethinking reactivity"](https://www.youtube.com/watch?v=AdNJ3fydeao&feature=youtu.be&t=1130),
 and [the discussion above](#great-performance).
 Svelte has a history of surprising innovations
 but we shouldn’t choose Svelte today expecting an ideal answer.
 
-Rich Harris
-[intends to implement an equivalent to React’s suspense](https://twitter.com/Rich_Harris/status/1148263929497477120),
+Rich [intends to implement an equivalent to React’s suspense](https://twitter.com/Rich_Harris/status/1148263929497477120),
 so it appears React’s advantage there is temporary.
 
 ### if it ain’t broke
@@ -565,7 +564,7 @@ Svelte’s JS size advantage shrinks and eventually reverses,
 because Svelte templates are compiled to a form
 that is more verbose than the source.
 
-Rich Harris addresses this in the issue
+Rich addresses this in the issue
 [“Yes, but does it scale?”](https://github.com/sveltejs/svelte/issues/2546),
 saying that code splitting usually retains Svelte’s bundle size advantage,
 and notes that in the future,
