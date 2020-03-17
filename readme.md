@@ -220,6 +220,8 @@ include only the framework code used by your components.
 
 Svelte’s server-side rendering mode compiles components
 to simple string concatenation for big performance gains.
+A [charting library from Rich named Pancake](https://dev.to/richharris/a-new-technique-for-making-responsive-javascript-free-charts-gmp)
+shows how Svelte can be used to create UIs that require no runtime JavaScript.
 An [experiment with WebGL](https://github.com/sveltejs/gl)
 and the NativeScript integration
 [svelte-native](https://github.com/halfnelson/svelte-native)
