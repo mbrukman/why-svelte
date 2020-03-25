@@ -578,6 +578,9 @@ but our project is going to have a heavy UI metasystem similar to an IDE,
 with components that are more difficult to code split and lazy load.
 Our base JS cost may be larger than the equivalent
 in other frameworks if we don’t pull off some wizardry.
+That said, our primary use case is a long-lived app with chat,
+so we care less about bundle size and more about
+the performance of change propagation in the UI.
 
 ### barrier to open source contributions
 
