@@ -228,6 +228,14 @@ and the NativeScript integration
 demonstrate compile targets beyond the DOM
 that bypass the costs of runtime abstractions like virtual DOM.
 
+Within the constraints of Svelte’s syntax and semantics,
+its output flexibility positions it well for the future.
+It can change its runtime strategy without any changes to components.
+With runtime-only frameworks, the code you write is the code you deliver.
+Non-ui compilers like Babel can transform your code
+but Svelte has a higher degree of freedom
+because it controls the runtime.
+
 Simply put, compilers have access to flexibility and power
 that runtime-only frameworks lack —
 this point is deep and there’s a wide frontier to explore.
