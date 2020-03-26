@@ -231,10 +231,9 @@ that bypass the costs of runtime abstractions like virtual DOM.
 Within the constraints of Svelte’s syntax and semantics,
 its output flexibility positions it well for the future.
 It can change its runtime strategy without any changes to components.
-With runtime-only frameworks, the code you write is the code you deliver.
-Non-ui compilers like Babel can transform your code
-but Svelte has a higher degree of freedom
-because it controls the runtime.
+Modern webdevs commonly pair a runtime-only framework
+with a non-ui compiler like Babel.
+Svelte has a higher degree of freedom by integrating the two.
 
 Simply put, compilers have access to flexibility and power
 that runtime-only frameworks lack —
