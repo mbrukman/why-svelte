@@ -231,7 +231,7 @@ that bypass the costs of runtime abstractions like virtual DOM.
 Within the constraints of Svelte’s syntax and semantics,
 its output flexibility positions it well for the future.
 It can change its runtime strategy without any changes to components.
-Modern webdevs commonly pair a runtime-only framework
+Modern webdev commonly pairs a runtime-only framework
 with a non-ui compiler like Babel.
 Svelte has a higher degree of freedom by integrating the two.
 
