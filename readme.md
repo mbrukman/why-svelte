@@ -234,7 +234,7 @@ It can change its runtime strategy without any changes to components,
 holistically transforming both the runtime and the user’s code.
 Modern webdev commonly pairs a runtime-only framework
 with a non-ui compiler like Babel.
-Svelte has a higher degree of freedom by integrating the two.
+Svelte has a higher degree of freedom and unlocks power by integrating the two.
 
 Simply put, compilers have access to flexibility and power
 that runtime-only frameworks lack —
