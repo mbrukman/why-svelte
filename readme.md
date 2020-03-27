@@ -89,6 +89,9 @@ have an advantage over runtime-only frameworks for hitting this sweet spot.
 Both Angular ([Ivy](https://angular.io/guide/ivy))
 and Ember ([Octane](https://blog.emberjs.com/2019/12/20/octane-is-here.html))
 have evolved towards compilation as Svelte helps popularize the idea.
+In 2017 Ember’s Tom Dale wrote the short post
+[“Compilers are the New Frameworks”](https://tomdale.net/2017/09/compilers-are-the-new-frameworks/),
+and today we see the idea’s momentum continue to grow.
 
 [Rich Harris](https://github.com/rich-harris) created Svelte in 2016
 for his work on interactives at the New York Times.
