@@ -444,7 +444,7 @@ Source maps, which Svelte uses to map its web language outputs
 back to its source language, have limitations.
 Kyle Simpson makes a thorough case against treating JavaScript as a machine
 in his talk [“Keep Betting on JS”](https://www.youtube.com/watch?v=ft5bYnt0W48).
-I currently see Svelte as an acceptably webby choice for our long-term project,
+I currently view Svelte as sufficiently webby for our long-term project,
 but this point is worth serious consideration.
 
 After using Svelte for a year, I can comfortably claim
