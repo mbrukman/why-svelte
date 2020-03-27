@@ -473,7 +473,7 @@ That said, Svelte may surprise us or find other angles to approach this problem.
 For more about how concurrent mode relates to Svelte,
 see [these tweets from Rich](https://twitter.com/Rich_Harris/status/1200805237948325888),
 this section of
-[his talk "Rethinking reactivity"](https://www.youtube.com/watch?v=AdNJ3fydeao&feature=youtu.be&t=1130),
+[his talk “Rethinking reactivity”](https://www.youtube.com/watch?v=AdNJ3fydeao&feature=youtu.be&t=1130),
 and [the discussion above](#great-performance).
 Svelte has a history of surprising innovations
 but we shouldn’t choose Svelte today expecting an ideal answer.
@@ -646,7 +646,7 @@ Evidence of growth, buyin, mindshare, etc:
 
 - there’s a lot of logos and faces at [svelte.dev](https://svelte.dev/)
 - the [InfoQ Trends Report 2020](https://www.infoq.com/articles/javascript-web-development-trends-2020/)
-  puts Svelte in the "early majority" section of the adoption curve
+  puts Svelte in the “early majority” section of the adoption curve
 - Svelte is one of the 6 JS frameworks in the
   [State of JS 2019 survey](https://2019.stateofjs.com/front-end-frameworks/svelte/) —
   75% have heard of it, 7% have used it,
