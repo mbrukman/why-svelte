@@ -433,6 +433,16 @@ and it’s arguable whether React or Svelte
 is the more radical departure from the norm.
 (sounds like a boring argument tbh)
 
+Treating the web as a compile target has a lot of implications, many negative.
+For example “view source” is a beautiful feature of the web
+that’s especially useful for learning and it’s an important part of its history.
+Source maps, which Svelte uses to map its web language outputs
+back to its source language, have limitations.
+Kyle Simpson makes a thorough case against treating JavaScript as a machine
+in his talk [“Keep Betting on JS”](https://www.youtube.com/watch?v=ft5bYnt0W48).
+I currently see Svelte as an acceptably webby choice for our long-term project,
+but this point is worth serious consideration.
+
 After using Svelte for a year, I can comfortably claim
 it extends the web’s languages with taste and restraint,
 and for our team it’s worth the costs and risk.
