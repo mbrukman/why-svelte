@@ -438,7 +438,8 @@ is the more radical departure from the norm.
 
 Treating the web as a compile target has a lot of implications, many negative.
 For example “view source” is a beautiful feature of the web
-that’s especially useful for learning and it’s an important part of its history.
+that’s an important part of its history and especially useful for learning,
+but Svelte’s compilation reduces its utility.
 Source maps, which Svelte uses to map its web language outputs
 back to its source language, have limitations.
 Kyle Simpson makes a thorough case against treating JavaScript as a machine
