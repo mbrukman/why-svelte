@@ -395,11 +395,17 @@ by extending/reusing/reinterpreting valid syntax.
 (e.g. [reactivity](https://svelte.dev/tutorial/reactive-assignments),
 [auto-subscriptions](https://svelte.dev/tutorial/auto-subscriptions),
 and [declaring props](https://svelte.dev/tutorial/declaring-props))
-Importantly, Svelte interop with external JavaScript modules is seamless —
-its semantic extensions to JS are localized to individual Svelte modules,
-setting it clearly apart from most other languages that compile to JS.
 
-As as result, you’ll need more specialized tools
+Importantly, Svelte interop with JavaScript modules is seamless —
+its semantic extensions to JS are localized to individual Svelte modules.
+This dramatically reduces the costs and risks of adoption
+compared to other languages that compile to JS and
+require type definitions, a foreign function interface,
+or alternative solution like
+[Elm’s ports](https://guide.elm-lang.org/interop/ports.html).
+
+Because Svelte is its own language,
+you’ll need more specialized tools
 and a little more framework-specific knowledge.
 For those rare unfortunate times you find yourself migrating
 Svelte components to another framework,
