@@ -397,11 +397,10 @@ by extending/reusing/reinterpreting valid syntax.
 and [declaring props](https://svelte.dev/tutorial/declaring-props))
 
 Importantly, Svelte interop with JavaScript modules is seamless —
-its semantic extensions to JS are localized to individual Svelte modules.
+its semantic deviations from JS are localized to individual Svelte modules.
 This dramatically reduces the costs and risks of adoption
-compared to other languages that compile to JS and
-require type definitions, a foreign function interface,
-or alternative solution like
+compared to other languages that compile to JS with interop requirements like
+type definitions, foreign function interfaces, or other things like
 [Elm’s ports](https://guide.elm-lang.org/interop/ports.html).
 
 Because Svelte is its own language,
