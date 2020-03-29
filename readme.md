@@ -395,6 +395,9 @@ by extending/reusing/reinterpreting valid syntax.
 (e.g. [reactivity](https://svelte.dev/tutorial/reactive-assignments),
 [auto-subscriptions](https://svelte.dev/tutorial/auto-subscriptions),
 and [declaring props](https://svelte.dev/tutorial/declaring-props))
+Importantly, Svelte interop with external JavaScript modules is seamless —
+its semantic extensions to JS are localized to individual Svelte modules,
+setting it clearly apart from most other languages that compile to JS.
 
 As as result, you’ll need more specialized tools
 and a little more framework-specific knowledge.
