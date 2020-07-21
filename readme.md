@@ -432,6 +432,8 @@ with Svelte’s markup (for e.g. typechecking)
 requires more specialized tooling.
 Svelte is written in TypeScript and work
 [integrating it for users is in progress](https://github.com/sveltejs/svelte/issues/4518).
+(**update July 2020:**
+**[official TypeScript support is ready!](https://svelte.dev/blog/svelte-and-typescript))**
 
 [Svelte isn’t alone in its approach](https://twitter.com/Rich_Harris/status/1120737306774843392)
 of extending languages, but it goes further than Angular and Vue,
@@ -516,6 +518,9 @@ Today these are issues, but I expect them to be resolved
 as Svelte’s development and adoption continue.
 
 ### immature tools
+
+(**update July 2020:**
+**[official TypeScript support is ready!](https://svelte.dev/blog/svelte-and-typescript))**
 
 Peripheral tooling is a work in progress.
 With React and TypeScript we can write fairly well-typed frontends
