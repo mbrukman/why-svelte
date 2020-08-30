@@ -93,9 +93,8 @@ In 2017 Ember’s Tom Dale wrote the short post
 [“Compilers are the New Frameworks”](https://tomdale.net/2017/09/compilers-are-the-new-frameworks/),
 and today we see the idea’s momentum continue to grow.
 
-[Rich Harris](https://github.com/rich-harris) created Svelte in 2016
-for his work on interactive user interfaces
-at The Guardian and later The New York Times.
+[Rich Harris](https://github.com/rich-harris) created Svelte in 2016 for
+his work on interactive graphics at The Guardian and later The New York Times.
 The work demanded web UIs that are fast, tiny in bundle size,
 and quick to produce, with good support for SVG and animations.
 A colleague had been promoting compilation
