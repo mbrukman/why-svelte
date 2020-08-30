@@ -94,11 +94,10 @@ In 2017 Ember’s Tom Dale wrote the short post
 and today we see the idea’s momentum continue to grow.
 
 [Rich Harris](https://github.com/rich-harris) created Svelte in 2016
-for his work on interactives at the New York Times.
+for his work on interactive user interfaces at The Guardian.
 The work demanded web UIs that are fast, tiny in bundle size,
 and quick to produce, with good support for SVG and animations.
-His colleague [Mike Bostock](https://github.com/mbostock)
-(of [d3](https://github.com/d3/d3)) had been promoting compilation
+A colleague had been promoting compilation
 as a powerful pattern that was underutilized on the web.
 Svelte grew out of these needs and inspiration.
 In early 2019
