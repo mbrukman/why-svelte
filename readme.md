@@ -644,6 +644,8 @@ for rounding out my frontend skills.
 
 ### it’s a volunteer effort
 
+> **update December 2021:** Rich now works on Svelte and SvelteKit full-time
+
 There’s no full-time team supporting Svelte —
 its developers are part-time volunteers.
 Bugs get fixed, features get added,
