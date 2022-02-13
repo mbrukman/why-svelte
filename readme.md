@@ -722,7 +722,7 @@ and [the API docs](https://svelte.dev/docs)
 and [Discord community](https://svelte.dev/chat) can help you from there.
 [The basic template](https://github.com/sveltejs/template) is a good way
 to begin making stuff, or jump in with
-[Sapper](https://sapper.svelte.dev/),
+[SvelteKit](https://kit.svelte.dev/),
 the officially supported app framework equivalent of
 React’s Next.js and Vue’s Nuxt.js.
 And finally,
@@ -741,23 +741,6 @@ Discuss this post on the web:
 - please feel free to
   [open an issue](https://github.com/feltcoop/why-svelte/issues)
   here on GitHub with questions/comments/improvements/etc
-
-It’s worth mentioning that Svelte limits its scope
-to being only a UI component framework.
-Like React, it provides the view layer,
-but it has more batteries included with its
-[component-scoped CSS](https://svelte.dev/docs#style) and extensible
-[stores for state management](https://svelte.dev/docs#svelte_store).
-Others like Angular and Vue provide a more all-in-one solution
-with official routers, opinionated state management, CLIs, and more.
-[Sapper](https://sapper.svelte.dev/) is Svelte’s official app framework
-that adds routing, server-side rendering, code splitting,
-and some other essential app features,
-but it has no opinions about state management and beyond.
-Some devs prefer Svelte’s minimal approach that defers problems to userland,
-encouraging more innovation, choice, and fragmentation,
-and other devs prefer a more fully integrated toolkit
-with a well-supported happy path.
 
 The project that prompted this post is
 [Felt](https://github.com/feltcoop/felt),
