@@ -514,8 +514,10 @@ Is Svelte worth the time and risk?
 <blockquote>
 
 **update Jan 2023:** much of Svelte's temporary drawback-having situation has improved
-since I wrote this almost 3 years ago and then
-[got asked for an update](https://github.com/feltcoop/why-svelte/issues/3).
+since I wrote this almost 3 years ago. I recently
+[got asked for an update](https://github.com/feltcoop/why-svelte/issues/3)
+and apparently I had an update in me. This isn't exhaustive but I'll try to give many highlights.
+
 As a Svelte user I'm biased of course, and I have my head down working most days,
 so I'm not the best person to ask about the status of the community and ecosystem,
 but based on my daily usage of the technology, its status is at minimum multiple rocket ship emojis.
