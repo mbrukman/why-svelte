@@ -513,8 +513,8 @@ Is Svelte worth the time and risk?
 
 <blockquote>
 
-**update Jan 2023:** much of this has improved.
-I'm biased of course, and I have my head down working most days,
+**update Jan 2023:** much of Svelte's temporary drawback-having situation has improved.
+As a Svelte user I'm biased of course, and I have my head down working most days,
 so I'm not the best person to ask about the status of the community and ecosystem,
 but based on my daily usage of the technology, it's multiple rocket ship emojis.
 
