@@ -557,6 +557,10 @@ but based on my daily usage of the technology, its status is at minimum multiple
   after building a JS-heavy SPA that works fast on several years old Android phones.
   Svelte gives you a lot of granular control to fine tune things,
   and as they say, there's always a faster fish.
+- 1) [Astro](https://astro.js.org/) and 2) [Qwik](https://qwik.builder.io/)
+  are interesting new entrants to the same layer as SvelteKit and Next.js,
+  but for the work I do I want 1) a framework specialized for Svelte,
+  and 2) a full power environment for SPAs without compromising anything for SSR
 
 </blockquote>
 
