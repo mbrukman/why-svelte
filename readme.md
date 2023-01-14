@@ -516,7 +516,7 @@ Is Svelte worth the time and risk?
 **update Jan 2023:** much of Svelte's temporary drawback-having situation has improved.
 As a Svelte user I'm biased of course, and I have my head down working most days,
 so I'm not the best person to ask about the status of the community and ecosystem,
-but based on my daily usage of the technology, it's multiple rocket ship emojis.
+but based on my daily usage of the technology, its status is at minimum multiple rocket ship emojis.
 
 - Sapper's successor [SvelteKit](https://kit.svelte.dev/) just hit 1.0,
   and we've been using it to great effect with 😁😁
