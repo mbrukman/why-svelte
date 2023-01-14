@@ -533,7 +533,7 @@ but based on my daily usage of the technology, its status is at minimum multiple
     by [Dani Sandoval](https://dreamindani.com/)
   - proof it's known and liked in the
     [State of JS 2022](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/).
-  - [Threlte](https://threlte.xyz/) is really cool for
+  - [Threlte](https://threlte.xyz/) is really good for
     wrapping `three.js` to do 3D WebGL declaratively in Svelte
   - TBH **I haven't done the research but I doubt this translates to jobs yet**
     but it's definitely growing in usage (greenfield projects everywhere, may they be so lucky),
@@ -547,10 +547,10 @@ but based on my daily usage of the technology, its status is at minimum multiple
 - Some really interesting stuff is likely to be coming to Svelte in the future --
   the phrase "Svelte 4" has been uttered in public more than once by a core team member unironically
 - [Solid](https://www.solidjs.com/) shows what a take on Svelte-in-React/JS(X) looks like
-  (Solid's author [Ryan Carniato has much content](https://dev.to/ryansolid)
-  for the UI framework geeks among us)
+  (for the UI framework geeks among us,
+  Solid's author [Ryan Carniato has much content](https://dev.to/ryansolid))
   and for me, IMO, Svelte's terse templates and HTML-extendingness are how I want to build UIs.
-  If performance of Solid were noticeably better for end users than Svelte
+  If the performance of Solid was noticeably better for end users than Svelte
   I suppose I would have to reconsider, but I'm doubtful about that,
   I don't think the framework bottlenecks the things I do most of the time, that's my job.
   Honestly I could be wrong but Svelte and SvelteKit feel right
