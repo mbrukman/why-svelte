@@ -511,6 +511,56 @@ Is Svelte worth the time and risk?
 
 ## Drawbacks today
 
+<blockquote>
+
+**update Jan 2023:** much of this has improved.
+I'm biased of course, and I have my head down working most days,
+so I'm not the best person to ask about the status of the community and ecosystem,
+but based on my daily usage of the technology, it's multiple rocket ship emojis.
+
+- Sapper's successor [SvelteKit](https://kit.svelte.dev/) just hit 1.0,
+  and we've been using it to great effect with 😁😁
+- [Vite](https://vitejs.dev/) appeared and SvelteKit and many others started using it, and now it's
+  [the United Nations of JS](https://www.youtube.com/watch?v=-OMPfr56kXI)
+- Vercel hired [Rich Harris](https://twitter.com/Rich_Harris/status/1458822051263823875) in 2021 and
+  [Simon H](https://twitter.com/dummdidumm_/status/1549041206348222464) in 2022
+  to work on Svelte and SvelteKit full time.
+- There's now:
+  - [Svelte Society](https://sveltesociety.dev/) ([youtube](https://www.youtube.com/@SvelteSociety))
+  - the conference [Svelte Summit](https://www.sveltesummit.com/)
+  - [Svelte Sirens](https://sveltesirens.dev/), a Svelte Society for women, non-binary people, & allies
+  - [monthly info-packed blog posts](https://svelte.dev/blog)
+    by [Dani Sandoval](https://dreamindani.com/)
+  - proof it's known and liked in the
+    [State of JS 2022](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/).
+  - [Threlte](https://threlte.xyz/) is really cool for
+    wrapping `three.js` to do 3D WebGL declaratively in Svelte
+  - TBH **I haven't done the research but I doubt this translates to jobs yet**
+    but it's definitely growing in usage (greenfield projects everywhere, may they be so lucky),
+    and with SvelteKit 1.0 being *done* I think jobs are coming, no doubt Enterprise hears the commotion
+  - all these kind contributors to
+    [`svelte`](https://github.com/sveltejs/svelte/graphs/contributors) and
+    [`@sveltejs/kit`](https://github.com/sveltejs/kit/graphs/contributors)
+- The Discord server is vibrant,
+  the community has many excellent educators and bloggers and resources,
+  and the software produced by the Svelte team is high quality, efficient, and thoughtful
+- Some really interesting stuff is likely to be coming to Svelte in the future --
+  the phrase "Svelte 4" has been uttered in public more than once by a core team member unironically
+- [Solid](https://www.solidjs.com/) shows what a take on Svelte-in-React/JS(X) looks like
+  (Solid's author [Ryan Carniato has much content](https://dev.to/ryansolid)
+  for the UI framework geeks among us)
+  and for me, IMO, Svelte's terse templates and HTML-extendingness are how I want to build UIs.
+  If performance of Solid were noticeably better for end users than Svelte
+  I suppose I would have to reconsider, but I'm doubtful about that,
+  I don't think the framework bottlenecks the things I do most of the time, that's my job.
+  Honestly I could be wrong but Svelte and SvelteKit feel right
+  after building a JS-heavy SPA that works fast on several years old Android phones.
+  Svelte gives you a lot of granular control to fine tune things,
+  and as they say, there's always a faster fish.
+
+</blockquote>
+
+
 Many of Svelte’s negative tradeoffs reflect its relative youth
 and not-yet-mainstream popularity.
 Today these are issues, but I expect them to be resolved
@@ -518,8 +568,13 @@ as Svelte’s development and adoption continue.
 
 ### immature tools
 
-(**update July 2020:**
-**[official TypeScript support is ready!](https://svelte.dev/blog/svelte-and-typescript))**
+> **update Jan 2023:** the tools have been great for a long time,
+> and [Vercel hired](https://twitter.com/dummdidumm_/status/1549041206348222464)
+> the main language tools dev
+> [@dummdidumm](https://github.com/dummdidumm) in July 2022
+
+> **update July 2020:**
+> **[official TypeScript support is ready!](https://svelte.dev/blog/svelte-and-typescript))**
 
 Peripheral tooling is a work in progress.
 With React and TypeScript we can write fairly well-typed frontends
@@ -566,6 +621,9 @@ and we see a meaningful opportunity to grow as developers.
 
 ### young library ecosystem
 
+> **update**: see [Svelte Society](https://sveltesociety.dev/) --
+> there are more and improved solutions available these days but I don't use any
+
 Libraries are fewer in number and generally less mature.
 Depending on your project and team,
 this could be irrelevant, inconvenient, or a blocker.
@@ -590,6 +648,13 @@ and we’re able and willing to spend the time
 to own our UI and level up along the way.
 
 ### the bundle size inflection point
+
+> **update Jan 2023:** I've heard unconfirmed musings that improvements
+> could be coming for bundle sizes in Svelte 4 for certain usecases like large apps,
+> and now that SvelteKit is 1.0, we will presumably see more attention back on Svelte.
+> Given what I've gathered lurking a little in the community,
+> I'm optimistic Svelte is going to have some really cool stuff to geek out on in the future,
+> that'll be relevant for my users.
 
 Svelte is known for its tantalizingly small JavaScript bundles,
 and [compiler improvements sometimes shrink the output](https://github.com/sveltejs/svelte/pull/3945#issuecomment-557840183)
@@ -636,6 +701,14 @@ and it’s approachable for web developers of any experience level.
 
 ### fewer jobs today
 
+> **update Jan 2023**: definitely still true -
+> I mean sure there are a lot more jobs today,
+> I'm not going to cite jobs data,
+> but given *SvelteKit just hit 1.0* I think Enterprise **adoption**
+> aka jobs will happen more and more.
+> There are a lot of people spreading Svelte. IMO this is wonderful,
+> Svelte is HTML+JS+CSS done so, so well.
+
 There are few jobs for Svelte right now.
 Our team members are developing skills
 that might not directly translate to future employment.
@@ -644,7 +717,19 @@ for rounding out my frontend skills.
 
 ### it’s a volunteer effort
 
-> **update December 2021:** Rich now works on Svelte and SvelteKit full-time
+> **update 2021 and 2022**: Vercel hired
+> [Rich Harris](https://twitter.com/Rich_Harris/status/1458822051263823875) in 2021 and
+> [Simon H](https://twitter.com/dummdidumm_/status/1549041206348222464) in 2022
+> to work on Svelte and SvelteKit full time.
+> Also "volunteer" is underselling the high quality contributions
+> of so many people on SvelteKit and Svelte and [Vite](https://vitejs.dev/),
+> like [Ben McCann](https://github.com/benmccann)
+> and [many others](https://github.com/sveltejs/kit/graphs/contributors).
+> And Vite? If you're a SvelteKit user,
+> you now have [Evan You](https://github.com/yyx990803)
+> and [the Vite team](https://github.com/vitejs/vite/graphs/contributors)
+> supporting your stack,
+> along with some [Vue team members](https://github.com/bluwy).
 
 There’s no full-time team supporting Svelte —
 its developers are part-time volunteers.
@@ -657,6 +742,9 @@ Rich likes his dayjob, but it seems likely that funding
 will be available to the dev team in the future, if they want it.
 
 ## Conclusion
+
+> **update Jan 2023**: Svelte is awesome, **it does so much justice to the web**,
+> 10 stars would shill again
 
 Is using bleeding edge tech risky and foolish?
 How much blood are we talking about?
@@ -709,7 +797,7 @@ Here are some of his inspiring talks about Svelte:
 - [“Rethinking reactivity”](https://www.youtube.com/watch?v=AdNJ3fydeao)
 - [“Computer, build me an app”](https://www.youtube.com/watch?v=qqt6YxAZoOc)
 
-Alright! Was that a fairly thorough and clarifying overview?
+OK! Was that a fairly thorough and clarifying overview?
 I hope you’ll consider Svelte
 next time you want to play around with some new technologies
 and see it as a worthwhile option for making awesome software for people.
@@ -736,21 +824,13 @@ Discuss this post on the web:
 - [lobste.rs](https://lobste.rs/s/ver9ln/why_svelte_is_our_choice_for_large_web)
 - [Hacker News](https://news.ycombinator.com/item?id=22534639)
 - [Tildes](https://tildes.net/~comp/mjh/why_svelte_is_our_choice_for_a_large_web_project_in_2020)
-- tweet me [@ryanatkn](https://twitter.com/ryanatkn)
-  and see [the tweet for this post](https://twitter.com/ryanatkn/status/1237347309488349184)
 - please feel free to
   [open an issue](https://github.com/feltcoop/why-svelte/issues)
   here on GitHub with questions/comments/improvements/etc
 
 The project that prompted this post is
-[Felt](https://github.com/feltcoop/felt),
+[@feltcoop](https://github.com/feltcoop).
 a super customizable community platform.
-We’re in the planning phase right now —
-[felt.dev](https://felt.dev) has an early mockup,
-[felt.social](https://felt.social) has a mailing list signup,
-and we’re @feltcoop
-on [GitHub](https://github.com/feltcoop)
-and [Twitter](https://twitter.com/feltcoop).
 Felt is open source, easily self-hosted, and owned by a worker co-op
 with the future goal of becoming a [platform co-op](https://platform.coop).
 The name was inspired by Svelte so our bias goes deep. :]
