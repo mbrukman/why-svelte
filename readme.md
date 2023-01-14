@@ -559,8 +559,6 @@ but based on my daily usage of the technology, its status is at minimum multiple
   and as they say, there's always a faster fish.
   If JSX resonates with you more strongly than Svelte's templates after giving both a fair shake,
   and you want something other than React or Vue, Solid is an intriguing project to consider.
-- some interesting new entrants to the same layer as SvelteKit and Next.js,
-  but for the range of work I do, I'm very happy with SvelteKit.
 
 </blockquote>
 
