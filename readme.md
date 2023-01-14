@@ -542,17 +542,18 @@ its status is, at minimum, multiple rocket ship emojis.
     [State of JS 2022](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/).
   - [Threlte](https://threlte.xyz/) is really good for
     wrapping `three.js` to do 3D WebGL declaratively in Svelte
-  - jobs advertising Svelte are not common, but usage is steadily growing
-    with many reporting adopting it at work
-    (greenfield projects everywhere, may they be so lucky),
-    and with SvelteKit 1.0 being *done* I think jobs are coming --
-    no doubt Enterprise hears the commotion
   - all these kind contributors to
     [`svelte`](https://github.com/sveltejs/svelte/graphs/contributors) and
     [`@sveltejs/kit`](https://github.com/sveltejs/kit/graphs/contributors)
 - The Discord server is vibrant,
   the community has many excellent educators and bloggers and resources,
   and the software produced by the Svelte team is high quality, efficient, and thoughtful
+- Svelte jobs are not as common as the community would like, based on what I see on reddit/Discord,
+  but usage is steadily growing, with many reporting adopting it at work
+  (greenfield projects everywhere, may they be so lucky -- see
+  [the community jobs channel in Discord](https://discord.com/channels/457912077277855764/640884695890133012)),
+  and with SvelteKit 1.0 being *done* I think jobs are coming --
+  no doubt Enterprise hears the commotion
 - Some really interesting stuff is likely to be coming to Svelte in the future --
   the phrase "Svelte 4" has been said in public more than once by a core team member unironically
 - [Solid](https://www.solidjs.com/) shows what a take on Svelte-in-React/JS(X) looks like
