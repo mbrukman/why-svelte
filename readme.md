@@ -522,10 +522,10 @@ This isn't exhaustive but I'll try to include the biggest highlights.
 As a Svelte user I'm biased of course, and I have my head down working most days,
 so I'm not the best person to ask about the status of the community and ecosystem,
 but based on my daily usage of the technology and some perimeter community lurking,
-its status is at minimum multiple rocket ship emojis.
+its status is, at minimum, multiple rocket ship emojis.
 
 - Sapper's successor [SvelteKit](https://kit.svelte.dev/) just hit 1.0,
-  and we've been using it to great effect with 😁😁
+  and we've been using it to great effect
 - [Vite](https://vitejs.dev/) appeared and SvelteKit and many others started using it, and now it's
   [the United Nations of JS](https://www.youtube.com/watch?v=-OMPfr56kXI)
 - Vercel hired [Rich Harris](https://twitter.com/Rich_Harris/status/1458822051263823875) in 2021 and
@@ -542,9 +542,11 @@ its status is at minimum multiple rocket ship emojis.
     [State of JS 2022](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/).
   - [Threlte](https://threlte.xyz/) is really good for
     wrapping `three.js` to do 3D WebGL declaratively in Svelte
-  - TBH **I haven't done the research but I doubt this translates to jobs yet**
-    but it's definitely growing in usage (greenfield projects everywhere, may they be so lucky),
-    and with SvelteKit 1.0 being *done* I think jobs are coming, no doubt Enterprise hears the commotion
+  - jobs advertising Svelte are not common, but usage is steadily growing
+    with many reporting adopting it at work
+    (greenfield projects everywhere, may they be so lucky),
+    and with SvelteKit 1.0 being *done* I think jobs are coming --
+    no doubt Enterprise hears the commotion
   - all these kind contributors to
     [`svelte`](https://github.com/sveltejs/svelte/graphs/contributors) and
     [`@sveltejs/kit`](https://github.com/sveltejs/kit/graphs/contributors)
@@ -552,18 +554,19 @@ its status is at minimum multiple rocket ship emojis.
   the community has many excellent educators and bloggers and resources,
   and the software produced by the Svelte team is high quality, efficient, and thoughtful
 - Some really interesting stuff is likely to be coming to Svelte in the future --
-  the phrase "Svelte 4" has been uttered in public more than once by a core team member unironically
+  the phrase "Svelte 4" has been said in public more than once by a core team member unironically
 - [Solid](https://www.solidjs.com/) shows what a take on Svelte-in-React/JS(X) looks like
   (Solid's author Ryan Carniato
   [has lot of good content for the UI framework geeks among us](https://dev.to/ryansolid))
   and for me, IMO, Svelte's terse templates and HTML-extendingness are how I want to build UIs.
   If the performance of Solid was noticeably better for end users than Svelte
   I suppose I would have to reconsider, but I'm doubtful about that,
-  I don't think the framework bottlenecks the things I do most of the time, that's my job.
-  Honestly I could be wrong but Svelte and SvelteKit feel right
-  after building a JS-heavy SPA that works fast on several years old Android phones.
+  I think they're roughly on the same tier in terms of overall performance characteristics,
+  with most bottlenecks occuring in user code, not the framework.
+  Honestly I could be wrong, but Svelte and SvelteKit feel *right to me*
+  after building a JS-heavy SPA that run fast on several-years-old Android phones.
   Svelte gives you a lot of granular control to fine tune things,
-  and as they say, there's always a faster fish.
+  and as they say, there's always a faster fish, and Svelte is already close to vanilla JS.
   If JSX resonates with you more strongly than Svelte's templates after giving both a fair shake,
   and you want something other than React or Vue, Solid is an intriguing project to consider.
 
@@ -630,7 +633,7 @@ and we see a meaningful opportunity to grow as developers.
 
 ### young library ecosystem
 
-> **update**: see [Svelte Society](https://sveltesociety.dev/) --
+> **update**: see [Svelte Society](https://sveltesociety.dev/) for the official resources --
 > there are more and improved solutions available these days but I don't use any
 
 Libraries are fewer in number and generally less mature.
@@ -661,9 +664,9 @@ to own our UI and level up along the way.
 > **update Jan 2023:** I've heard unconfirmed musings that improvements
 > could be coming for bundle sizes in Svelte 4 for certain usecases like large apps,
 > and now that SvelteKit is 1.0, we will presumably see more attention back on Svelte.
-> Given what I've gathered lurking a little in the community,
+> From what I've gathered lurking in the community,
 > I'm optimistic Svelte is going to have some really cool stuff to geek out on in the future,
-> that'll be relevant for my users.
+> stuff that'll be relevant for my users.
 
 Svelte is known for its tantalizingly small JavaScript bundles,
 and [compiler improvements sometimes shrink the output](https://github.com/sveltejs/svelte/pull/3945#issuecomment-557840183)
@@ -713,10 +716,7 @@ and it’s approachable for web developers of any experience level.
 > **update Jan 2023**: definitely still true -
 > I mean sure there are a lot more jobs today,
 > I'm not going to cite jobs data,
-> but given *SvelteKit just hit 1.0* I think Enterprise **adoption**
-> aka jobs will happen more and more.
-> There are a lot of people spreading Svelte. IMO this is wonderful,
-> Svelte is HTML+JS+CSS done so, so well.
+> but given *SvelteKit just hit 1.0* I think we'll see more and more jobs.
 
 There are few jobs for Svelte right now.
 Our team members are developing skills
@@ -752,7 +752,8 @@ will be available to the dev team in the future, if they want it.
 
 ## Conclusion
 
-> **update Jan 2023**: Svelte is awesome, **it does so much justice to the web**,
+> **update Jan 2023**: Svelte is still fantastic for both developers and end-users,
+> **it does so much justice to the web**,
 > 10 stars would shill again
 
 Is using bleeding edge tech risky and foolish?
