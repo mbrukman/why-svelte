@@ -557,13 +557,10 @@ but based on my daily usage of the technology, its status is at minimum multiple
   after building a JS-heavy SPA that works fast on several years old Android phones.
   Svelte gives you a lot of granular control to fine tune things,
   and as they say, there's always a faster fish.
+  If JSX resonates with you more strongly than Svelte's templates after giving both a fair shake,
+  and you want something other than React or Vue, Solid is an intriguing project to consider.
 - some interesting new entrants to the same layer as SvelteKit and Next.js,
   but for the range of work I do, I'm very happy with SvelteKit.
-  These tools are *excellent* for many kinds of websites, but not as much my JS-heavy ones.
-  - [Astro](https://astro.js.org/) - I prefer SvelteKit because it's specialized for Svelte
-  - [Qwik](https://qwik.builder.io/) - I want a full power environment for SPAs
-    without compromising anything for SSR
-
 
 </blockquote>
 
