@@ -516,12 +516,13 @@ Is Svelte worth the time and risk?
 **update Jan 2023:** much of Svelte's temporary drawback-having situation has improved
 since I wrote this almost 3 years ago. I recently
 [got asked for an update](https://github.com/feltcoop/why-svelte/issues/3)
-and wrote this section right here, along with a handful of smaller in-context updates ahead.
+and wrote this aside, along with a handful of smaller in-context updates ahead.
 This isn't exhaustive but I'll try to include the biggest highlights.
 
 As a Svelte user I'm biased of course, and I have my head down working most days,
 so I'm not the best person to ask about the status of the community and ecosystem,
-but based on my daily usage of the technology, its status is at minimum multiple rocket ship emojis.
+but based on my daily usage of the technology and some perimeter community lurking,
+its status is at minimum multiple rocket ship emojis.
 
 - Sapper's successor [SvelteKit](https://kit.svelte.dev/) just hit 1.0,
   and we've been using it to great effect with 😁😁
@@ -531,8 +532,9 @@ but based on my daily usage of the technology, its status is at minimum multiple
   [Simon H](https://twitter.com/dummdidumm_/status/1549041206348222464) in 2022
   to work on Svelte and SvelteKit full time.
 - There's now:
-  - [Svelte Society](https://sveltesociety.dev/) ([youtube](https://www.youtube.com/@SvelteSociety))
-  - the conference [Svelte Summit](https://www.sveltesummit.com/)
+  - [Svelte Society](https://sveltesociety.dev/)
+    and its conference [Svelte Summit](https://www.sveltesummit.com/)
+    ([YouTube](https://www.youtube.com/@SvelteSociety))
   - [Svelte Sirens](https://sveltesirens.dev/), a Svelte Society for women, non-binary people, & allies
   - [monthly info-packed blog posts](https://svelte.dev/blog)
     by [Dani Sandoval](https://dreamindani.com/)
