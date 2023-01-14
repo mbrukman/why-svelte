@@ -547,8 +547,8 @@ but based on my daily usage of the technology, its status is at minimum multiple
 - Some really interesting stuff is likely to be coming to Svelte in the future --
   the phrase "Svelte 4" has been uttered in public more than once by a core team member unironically
 - [Solid](https://www.solidjs.com/) shows what a take on Svelte-in-React/JS(X) looks like
-  (for the UI framework geeks among us,
-  Solid's author [Ryan Carniato has much content](https://dev.to/ryansolid))
+  (Solid's author Ryan Carniato
+  [has lot of good content for the UI framework geeks among us](https://dev.to/ryansolid))
   and for me, IMO, Svelte's terse templates and HTML-extendingness are how I want to build UIs.
   If the performance of Solid was noticeably better for end users than Svelte
   I suppose I would have to reconsider, but I'm doubtful about that,
