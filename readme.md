@@ -731,7 +731,7 @@ for rounding out my frontend skills.
 > [Rich Harris](https://twitter.com/Rich_Harris/status/1458822051263823875) in 2021 and
 > [Simon H](https://twitter.com/dummdidumm_/status/1549041206348222464) in 2022
 > to work on Svelte and SvelteKit full time. (clutch hires)
-> Also "volunteer" is underselling the high quality contributions
+> Also "volunteer" is underselling the high quality+volume contributions
 > of so many people on SvelteKit and Svelte and [Vite](https://vitejs.dev/),
 > like [Ben McCann](https://github.com/benmccann)
 > and [many others](https://github.com/sveltejs/kit/graphs/contributors).
