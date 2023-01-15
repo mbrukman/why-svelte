@@ -536,7 +536,7 @@ its status is, at minimum, multiple rocket ship emojis.
     and its conference [Svelte Summit](https://www.sveltesummit.com/)
     ([YouTube](https://www.youtube.com/@SvelteSociety))
   - [Svelte Sirens](https://sveltesirens.dev/), a Svelte Society for women, non-binary people, & allies
-  - [monthly info-packed blog posts](https://svelte.dev/blog)
+  - [monthly blog posts](https://svelte.dev/blog) packed with info
     by [Dani Sandoval](https://dreamindani.com/)
   - proof it's known and liked in the
     [State of JS 2022](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/).
