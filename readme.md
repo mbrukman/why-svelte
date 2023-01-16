@@ -568,12 +568,14 @@ its status is, at minimum, multiple rocket ship emojis.
   I suppose I would have to reconsider, but I'm doubtful about that,
   I think they're on the same tier in terms of their theoretical performance endpoints,
   with most bottlenecks occuring in user code, not the framework.
-  Honestly I could be wrong, but Svelte and SvelteKit feel *right to me*
-  after building a JS-heavy SPA that loads and runs fast on several-years-old Android phones.
-  Svelte gives you a lot of granular control to fine tune things,
-  and as they say, there's always a faster fish.
+  After building a JS-heavy SPA with Svelte that
+  loads and runs fast on several-years-old Android phones,
+  I'm feeling extra good about the choice,
+  and of course a similar app could have been built with React or Vue or Solid.
   If JSX resonates with you more strongly than Svelte's templates after giving both a fair shake,
-  and you want something other than React or Vue, Solid is an intriguing project to consider.
+  and you want to try something other than React or Vue,
+  or if you're curious about what it could look like to do Svelte in React,
+  Solid is an interesting project.
 
 Ahead are a some updates to individual points:
 
