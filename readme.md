@@ -555,7 +555,8 @@ its status is, at minimum, multiple rocket ship emojis.
   [the community jobs channel in Discord](https://discord.com/channels/457912077277855764/640884695890133012)),
   and with SvelteKit 1.0 being *done* I think jobs are coming --
   no doubt Enterprise hears the commotion
-- I missed an important point: how great Svelte's actions and DOM-agreeableness are for
+- I missed an important point (well, here's one of many):
+  how great Svelte's actions and DOM-agreeableness are for
   integrating with vanilla JS libraries, which are legion
 - Some really interesting stuff is likely to be coming to Svelte in the future --
   the phrase "Svelte 4" has been said in public more than once by a core team member unironically
@@ -565,12 +566,12 @@ its status is, at minimum, multiple rocket ship emojis.
   and for me, IMO, Svelte's terse templates and HTML-extendingness are how I want to build UIs.
   If the performance of Solid was noticeably better for end users than Svelte
   I suppose I would have to reconsider, but I'm doubtful about that,
-  I think they're roughly on the same tier in terms of overall performance characteristics,
+  I think they're on the same tier in terms of their theoretical performance endpoints,
   with most bottlenecks occuring in user code, not the framework.
   Honestly I could be wrong, but Svelte and SvelteKit feel *right to me*
-  after building a JS-heavy SPA that run fast on several-years-old Android phones.
+  after building a JS-heavy SPA that loads and runs fast on several-years-old Android phones.
   Svelte gives you a lot of granular control to fine tune things,
-  and as they say, there's always a faster fish, and Svelte is already close to vanilla JS.
+  and as they say, there's always a faster fish.
   If JSX resonates with you more strongly than Svelte's templates after giving both a fair shake,
   and you want something other than React or Vue, Solid is an intriguing project to consider.
 
@@ -591,7 +592,7 @@ as Svelte’s development and adoption continue.
 > [@dummdidumm](https://github.com/dummdidumm) in July 2022
 
 > **update July 2020:**
-> **[official TypeScript support is ready!](https://svelte.dev/blog/svelte-and-typescript))**
+> **[official TypeScript support is ready!](https://svelte.dev/blog/svelte-and-typescript)**
 
 Peripheral tooling is a work in progress.
 With React and TypeScript we can write fairly well-typed frontends
