@@ -571,8 +571,9 @@ its status is, at minimum, multiple rocket ship emojis.
   If JSX resonates with you more strongly than Svelte's templates after giving both a fair shake,
   and you want something other than React or Vue, Solid is an intriguing project to consider.
 
-</blockquote>
+Ahead are a some updates to individual points:
 
+</blockquote>
 
 Many of Svelte’s negative tradeoffs reflect its relative youth
 and not-yet-mainstream popularity.
