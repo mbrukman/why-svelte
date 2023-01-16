@@ -555,7 +555,7 @@ its status is, at minimum, multiple rocket ship emojis.
   [the community jobs channel in Discord](https://discord.com/channels/457912077277855764/640884695890133012)),
   and with SvelteKit 1.0 being *done* I think jobs are coming --
   no doubt Enterprise hears the commotion
-- I missed how great Svelte's actions and DOM-agreeableness are for
+- I missed an important point: how great Svelte's actions and DOM-agreeableness are for
   integrating with vanilla JS libraries, which are legion
 - Some really interesting stuff is likely to be coming to Svelte in the future --
   the phrase "Svelte 4" has been said in public more than once by a core team member unironically
