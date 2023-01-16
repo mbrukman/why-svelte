@@ -24,6 +24,7 @@ especially if you pine for the web of yore and future.
   - [rendering blocks the main thread](#rendering-blocks-the-main-thread)
   - [if it ain’t broke](#if-it-aint-broke)
 - [Drawbacks today](#Drawbacks-today) **updated Jan 2023**
+  ([#3](https://github.com/feltcoop/why-svelte/issues/3))
   - [immature tools](#immature-tools)
   - [best practices are still evolving](#best-practices-are-still-evolving)
   - [young library ecosystem](#young-library-ecosystem)
