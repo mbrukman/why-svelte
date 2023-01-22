@@ -705,7 +705,7 @@ the performance of change propagation in the UI.
 > **update Jan 2023**: The wizardry was done for us and
 > it's called [SvelteKit](https://kit.svelte.dev/) - with file-based routing
 > it gives us granular control over SSR, prerendering to static files, and automatic code splitting.
-> Our large app currently sits at about half a MB of uncompressed JS
+> Our large app's initial load currently sits at 121kB of compressed JS (half a MB uncompressed),
 > (I just ran Lighthouse for the first time, it gets a 90 on performance,
 > and we haven't spent any time optimizing)
 > and even as the main app grows,
