@@ -702,6 +702,15 @@ That said, our primary use case is a long-lived app with chat,
 so we care less about bundle size and more about
 the performance of change propagation in the UI.
 
+> **update Jan 2023**: The wizardry was done for us and
+> it's called [SvelteKit](https://kit.svelte.dev/) - with file-based routing
+> it gives us granular control over SSR, prerendering to static files, and automatic code splitting.
+> Our large app currently sits at about half a MB of uncompressed JS
+> (gets a 90 on Lighthouse perf, this is the first time I've run it, and there's optimizations we can do)
+> and even as the main app grows,
+> we can have sections of the app stay tiny and optimal
+> by following some simple SvelteKit strategies.
+
 ### barrier to open source contributions
 
 Our project is an open source community platform that seeks
