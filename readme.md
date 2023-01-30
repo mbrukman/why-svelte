@@ -755,9 +755,9 @@ for rounding out my frontend skills.
 > and [many others](https://github.com/sveltejs/kit/graphs/contributors).
 > And Vite? If you're a SvelteKit user,
 > you now have [Evan You](https://github.com/yyx990803)
+> and [Bjorn Lu](https://github.com/bluwy)
 > and [the Vite team](https://github.com/vitejs/vite/graphs/contributors)
-> supporting your stack,
-> along with some [Vue team members](https://github.com/bluwy).
+> supporting your stack.
 
 There’s no full-time team supporting Svelte —
 its developers are part-time volunteers.
