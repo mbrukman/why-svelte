@@ -751,6 +751,7 @@ for rounding out my frontend skills.
 > Also "volunteer" is underselling the high quality+volume contributions
 > of so many people on SvelteKit and Svelte and [Vite](https://vitejs.dev/),
 > like [Ben McCann](https://github.com/benmccann)
+> and [https://github.com/Conduitry](Conduitry)
 > and [many others](https://github.com/sveltejs/kit/graphs/contributors).
 > And Vite? If you're a SvelteKit user,
 > you now have [Evan You](https://github.com/yyx990803)
